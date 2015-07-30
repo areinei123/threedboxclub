@@ -1,5 +1,6 @@
 <div class "row">
   <% @boxes.each do |box| %>
-    <%= box.month %>
+    <%=  box.month %>
   <%-end-%>
+  <%= paginate @boxes %>
 </div>
